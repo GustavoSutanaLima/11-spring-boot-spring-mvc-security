@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+    <head>
+        <title>Forbidden</title>
+    </head>
+
+    <body>
+       <h2>This page is forbidden for your role</h2>
+       <hr>
+
+       <p>
+            You're not authorized here.
+            <hr>
+            Please go back: <a th:href="@{/}">to the home page</a>
+       </p>
+
+      
+
+       
+    </body>
+
+</html>
